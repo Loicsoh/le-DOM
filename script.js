@@ -154,12 +154,18 @@ console.log(navigator.userAgent);
 
 console.log(Location.href);
 
-location.href = "http://google.com";
+// location.href = "http://google.com";
 
 console.log(location.hostname);
 
 console.log(location.pathname);
 
 // history du naviateur
+history.back();
+
+// history.forward();
+console.log('tantative de navigation en avant');
+
+console.log(history.length);
 
 
