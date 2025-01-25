@@ -177,4 +177,12 @@ console.log(screen.availHeight);
 //methodes pratiques dans le BOM
 
 
+// Temporisation 
+
+// setTimeout(useCallback, delay) // execute une fonction après un certain délai
+
+setInterval( () => console.log('Message tout les 1 secondes'), 1000) // execute une fonction de manière répétée après un certain délai
+setTimeout( () => console.log('Message apre  2 secondes'), 2000) // execute une fonction de manière répétée après un certain délai
+
+
 
