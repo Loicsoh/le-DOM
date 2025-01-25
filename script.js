@@ -161,11 +161,20 @@ console.log(location.hostname);
 console.log(location.pathname);
 
 // history du naviateur
-history.back();
+ history.back();
 
 // history.forward();
 console.log('tantative de navigation en avant');
 
 console.log(history.length);
+
+console.log(screen.width);
+
+console.log(screen.height);
+console.log(screen.availWidth);
+console.log(screen.availHeight);
+
+//methodes pratiques dans le BOM
+
 
 
